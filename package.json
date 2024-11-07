@@ -1,0 +1,19 @@
+{
+  "name": "amplifydemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demoAppTests": "npx codeceptjs run --grep '@demoTests'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^3.6.2",
+    "playwright": "^1.44.1"
+  },
+  "dependencies": {
+    "chai": "^4.4.1"
+  }
+}
